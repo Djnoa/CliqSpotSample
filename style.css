@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@800&family=Roboto:wght@400;500&display=swap");
+
+html {
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #f07a00;
+}
+
+@media (max-width: 900px) {
+  #nav-container {
+    display: block;
+  }
+
+  #nav-list {
+    margin-top: 40px;
+  }
+}
+
+#logo {
+  max-height: 100px;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+
+#head-section {
+  background-color: #151515;
+  margin: 0;
+}
+
+#first-column {
+  padding-top: 100px;
+  max-height: 100vh;
+}
+
+#header-text {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.download {
+  margin-left: 20px;
+}
+
+#head-img-col {
+  max-height: 100vh;
+  padding-top: 20px;
+}
+
+#head-img {
+  height: 90%;
+  transform: rotate(20deg);
+}
+
+@media (max-width: 900px) {
+  #head-img {
+    transform: rotate(0);
+    max-width: 100vw;
+  }
+  #first-column {
+    margin-top: 20px;
+  }
+}
+
+#features {
+  background-color: #f07a00;
+  margin: 0;
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon {
+  color: #151515;
+}
+
+.feature-head {
+  color: #151515;
+  font-family: "Kanit", sans-serif;
+}
+
+.feature-sen {
+  color: #151515;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+#explain-row {
+  background-color: #151515;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#explain {
+  margin-top: 50px;
+}
+
+.explain-container {
+  margin-bottom: 100px;
+}
+.feat-explain {
+  text-align: center;
+  list-style: none;
+}
+
+.explain-item-title {
+  color: white;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.explain-item-text {
+  color: #f07a00;
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .explain-item-text {
+    font-size: 2.2vh;
+  }
+  .explain-item-title {
+    font-size: 3vh;
+  }
+}
+
+#price-head-row {
+  margin-top: 20px;
+}
+
+#business-users {
+  color: #151515;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  #business-users {
+    font-weight: 900;
+  }
+}
+
+#business-column {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+@media (max-width: 900px) {
+  #business-column {
+    padding: 20px;
+  }
+}
+
+.business-para {
+  color: #242526;
+  font-family: "Roboto", sans-serif;
+}
+
+#footer {
+  height: 30vh;
+  background-color: #f07a00;
+}
+
+#cliqspot-footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #151515;
+  font-family: "Kanit", sans-serif;
+}
+
+#footer-list-wrap {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#footer-list {
+  display: inline-block;
+}
+
+.footer-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 50px;
+}
+
+@media (max-width: 900px) {
+  .footer-list-item {
+    margin-right: 7px;
+  }
+}
+
+#copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#pricing-plans {
+  background-color: #151515;
+  margin-top: 20px;
+}
+
+#price-plans-title {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+
+#card-row {
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+
+.card-text {
+  list-style: none;
+}
