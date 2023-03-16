@@ -229,3 +229,7 @@ html {
 .card-text {
   list-style: none;
 }
+
+.card-col {
+  margin-bottom: 10px;
+}
